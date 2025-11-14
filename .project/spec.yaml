@@ -110,7 +110,7 @@ environment:
     compose_file_path: ""
 execution:
     apps:
-        - name: Visual Studio Code
+        - name: VS Code
           type: vs-code
           class: native
           start_command: ""
@@ -122,7 +122,7 @@ execution:
           icon_url: ""
     resources:
         gpu:
-            requested: 0
+            requested: 2
         sharedMemoryMB: 1024
     secrets:
         - variable: NVIDIA_API_KEY
